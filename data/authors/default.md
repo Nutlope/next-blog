@@ -2,7 +2,7 @@
 name: Hassan El Mghari
 avatar: /static/images/me_compressed.png
 occupation: Developer Advocate
-company: 🤫
+company: To be announced
 email: hassan@hey.com
 twitter: https://twitter.com/nutlope
 linkedin: https://www.linkedin.com/nutlope
