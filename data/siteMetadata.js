@@ -13,7 +13,6 @@ const siteMetadata = {
   github: 'https://github.com/nutlope',
   twitter: 'https://twitter.com/nutlope',
   facebook: 'https://facebook.com/nutlope',
-  youtube: 'https://youtube.com/nutlope',
   linkedin: 'https://www.linkedin.com/nutlope',
   locale: 'en-US',
   analytics: {
