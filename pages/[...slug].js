@@ -35,12 +35,12 @@ export async function getStaticProps({ params }) {
   const rss = generateRss(allPosts)
   fs.writeFileSync('./public/feed.xml', rss)
 
-  return { props: { post, authorDetails, prev, next } }
+  return { props: { post, authorDetails, prev, next, params, postIndex } }
 }
 
-export default function Blog({ post, authorDetails, prev, next }) {
+export default function Blog({ post, authorDetails, prev, next, params, postIndex }) {
   const { mdxSource, toc, frontMatter } = post
-
+  console.log('postIndex is: ', postIndex)
   return (
     <>
       {frontMatter.draft !== true ? (
