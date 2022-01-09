@@ -40,6 +40,7 @@
     "remark-math": "^5.0.0",
     "sharp": "^0.28.3",
     "smoothscroll-polyfill": "^0.4.4",
+    "swr": "^1.1.2",
     "tailwindcss": "^2.2.2",
     "unist-util-visit": "^4.0.0"
   },
