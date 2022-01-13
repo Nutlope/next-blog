@@ -5,21 +5,18 @@ export default function Tweets({ ids, cols }) {
   const [data, setData] = useState([])
 
   useEffect(() => {
-    try {
-      const getTweets = async () => {
-        const body = { ids }
-        const res = await fetch(`/api/getTweets`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(body),
-        })
-        const tweets = await res.json()
-        setData(tweets)
-      }
-      getTweets()
-    } catch (error) {
-      console.log('error is: ', error)
+    const getTweets = async () => {
+      const body = { ids }
+      const res = await fetch(`/api/getTweets`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body),
+      })
+      const tweets = await res.json()
+      console.log('tweets', tweets)
+      setData(tweets)
     }
+    getTweets()
   }, [ids])
 
   console.log('data is', data)
