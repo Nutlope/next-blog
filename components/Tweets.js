@@ -13,13 +13,11 @@ export default function Tweets({ ids, cols }) {
         body: JSON.stringify(body),
       })
       const tweets = await res.json()
-      console.log('tweets', tweets)
       setData(tweets)
     }
     getTweets()
   }, [ids])
 
-  console.log('data is', data)
   return (
     <div>
       {cols === 1 && (

@@ -85,21 +85,16 @@ export default function Tweet({
               : 'inline-grid grid-cols-2 gap-x-2 gap-y-2 my-2'
           }
         >
-          {media.map(
-            (m) => (
-              console.log('media is: ', m),
-              (
-                <Image
-                  key={m.media_key}
-                  alt={text}
-                  height={m.height}
-                  width={m.width}
-                  src={m.url}
-                  className="rounded"
-                />
-              )
-            )
-          )}
+          {media.map((m) => (
+            <Image
+              key={m.media_key}
+              alt={text}
+              height={m.height}
+              width={m.width}
+              src={m.url}
+              className="rounded"
+            />
+          ))}
         </div>
       ) : null}
       {quoteTweet ? <Tweet {...quoteTweet} /> : null}
