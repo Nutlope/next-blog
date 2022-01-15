@@ -12,11 +12,7 @@ export default function PostLayout({ frontMatter, next, prev, children }) {
 
   return (
     <SectionContainer>
-      <BlogSEO
-        url={`${siteMetadata.siteUrl}/blog/${frontMatter.slug}`}
-        {...frontMatter}
-        images={['/public']}
-      />
+      <BlogSEO url={`${siteMetadata.siteUrl}/blog/${frontMatter.slug}`} {...frontMatter} />
       <ScrollTopAndComment />
       <article>
         <div>
