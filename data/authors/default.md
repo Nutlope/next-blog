@@ -5,7 +5,7 @@ occupation: Developer Advocate
 company: Vercel
 email: hassan@hey.com
 twitter: https://twitter.com/nutlope
-linkedin: https://www.linkedin.com/nutlope
+linkedin: https://www.linkedin.com/in/nutlope/
 github: https://github.com/nutlope
 ---
 
