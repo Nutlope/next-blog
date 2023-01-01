@@ -13,7 +13,7 @@ const siteMetadata = {
   github: 'https://github.com/nutlope',
   twitter: 'https://twitter.com/nutlope',
   facebook: 'https://facebook.com/nutlope',
-  linkedin: 'https://www.linkedin.com/nutlope',
+  linkedin: 'https://www.linkedin.com/in/nutlope',
   locale: 'en-US',
   analytics: {
     // supports plausible, simpleAnalytics or googleAnalytics
